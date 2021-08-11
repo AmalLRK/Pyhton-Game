@@ -63,8 +63,7 @@ def checkPin(guessed_pin) :
         else :
             tab_res.extend([300, attempts])
             return tab_res
-
-
+#pour initialiser le compteur
 def initialAttemp() :
     global attempts, digit_code_v0, num
     if (attempts == 10 or attempts == 0) :
